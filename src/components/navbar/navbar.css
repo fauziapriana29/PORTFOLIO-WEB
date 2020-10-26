@@ -1,0 +1,62 @@
+nav.navbar {
+    background-color: rgb(32, 32, 32);
+    color: white;
+    padding: 0 2vw;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+}
+
+nav.navbar .navbar-brand {
+    font-size: 2.5vw;
+    color: white;
+}
+
+nav.navbar .navbar-brand:hover {
+    color: rgb(56,189,207)
+}
+
+nav.navbar .navbar-brand .bold {
+    color: rgb(56,189,207)
+}
+
+nav.navbar .navbar-brand:hover .bold {
+    color: white
+}
+
+nav.navbar .navbar-collapse .cont-link {
+    /* border: 1px solid white; */
+    /* width: 35vw; */
+    margin: auto;
+}
+
+nav.navbar .navbar-collapse .cont-link .nav-link {
+    font-size: 1.5vw;
+    color: white;
+    margin: 0 1vw;
+}
+
+nav.navbar .navbar-collapse .cont-link .nav-link:hover, nav.navbar .navbar-collapse .cont-link .nav-link:focus {
+    color: rgb(56,189,207);
+}
+
+.menu-icon {
+    color: rgb(56,189,207);
+}
+
+@media screen and (max-width: 800px) {
+
+    .cont-bio {
+        top: 40px;
+    }
+
+    nav.navbar .navbar-brand {
+        font-size: 6.5vw;
+    }
+
+    nav.navbar .navbar-collapse .cont-link .nav-link {
+        font-size: 3.8vw;
+        text-align: center;
+    }
+}

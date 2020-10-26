@@ -1,0 +1,141 @@
+.main-cont-biodata {
+    width: 100%;
+    height: 480px;
+    background-image: url(../../../assets/parallax-bg.jpg);
+    background-size: cover;
+    background-position-y: center;
+    background-attachment: fixed;
+}
+
+.cont-bio {
+    width: 70vw;
+    height: 492px;
+    /* border: 1px solid blue; */
+    position: relative;
+    top: 60px;
+}
+
+.cont-images, .cont-data {
+    /* border: 1px solid red; */
+    height: 420px;
+    width: 50%;
+}
+
+.cont-images {
+    background-color: rgb(227,223,218);
+    overflow: hidden;
+}
+
+.image-profil {
+    width: 100%;
+    height: 150%;
+    position: relative;
+    top: -30%;
+    /* filter: grayscale(.25); */
+}
+
+.cont-data {
+    background-color: rgba(32, 32, 32, 0.94);
+    color: white;
+    padding: 1vw;
+}
+
+.cont-data .name {
+    color: rgb(56,189,207);
+}
+
+.name-p {
+    font-size: 1.5vw;
+    line-height: 10px;
+}
+
+.name-p .typing-title {
+    color: rgb(56,189,207);
+}
+
+.bio-dateOfBirth {
+    margin-top: 30px;
+}
+
+.title-birth, .title-address, .title-phone, .title-email {
+    font-weight: normal;
+    color: rgb(56,189,207);
+}
+
+.dateBirth, .address, .phone, .email {
+    /* font-weight: bold; */
+    font-size: 1.8vw;
+    letter-spacing: 2px;
+    line-height: 15px;
+}
+
+.sosmed {
+    width: 100%;
+    height: 70px;
+    background-color:rgb(56,189,207);
+    display: flex;
+    justify-content: center;
+}
+
+.sosmed-img {
+    width: 35px;
+    height: 35px;
+    margin: 15px 15px;
+    transition: 0.3s;
+}
+
+.sosmed-img:hover {
+    transform: translateY(-15px);
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+
+    .main-cont-biodata {
+        height: 815px;
+    }
+
+    .cont-bio {
+        height: fit-content;
+    }
+
+    .cont-images {
+        height: 335px;
+    }
+
+    .image-profil {
+        width: 100%;
+        height: 130%;
+        position: relative;
+        top: -15%
+    }
+
+    .cont-images, .cont-data {
+        width: 100%;
+    }
+
+    .cont-data {
+        padding: 1.5vw;
+    }
+
+    .bio-name .name {
+        font-size: 7.5vw;
+    }
+
+    .name-p {
+        font-size: 3.5vw;
+        line-height: 10px;
+    }
+
+    .dateBirth, .address, .phone, .email {
+        /* font-weight: bold; */
+        font-size: 3.8vw;
+        letter-spacing: 2px;
+        line-height: 15px;
+    }
+}
