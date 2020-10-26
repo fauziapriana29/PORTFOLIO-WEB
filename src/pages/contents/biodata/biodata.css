@@ -139,3 +139,25 @@
         line-height: 15px;
     }
 }
+
+
+@media screen and (max-width: 360px) {
+
+    .main-cont-biodata {
+        height: 700px;
+    }
+
+
+    .cont-images{
+        height: 250px;
+    }
+
+    .cont-data {
+        height: 390px;
+    }
+
+    .name-p {
+        font-size: 4.5vw;
+    }
+
+}
