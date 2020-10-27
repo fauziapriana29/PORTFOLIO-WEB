@@ -1,0 +1,7 @@
+.experience {
+    height: 112vh;
+    background-image: url(../../../assets/footageWlppr.jpg);
+    background-size: cover;
+    background-position-y: 50px;
+    background-attachment: fixed;
+}

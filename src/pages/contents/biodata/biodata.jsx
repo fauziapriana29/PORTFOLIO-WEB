@@ -56,10 +56,10 @@ const Biodata = () => {
                         </div>
                     </div>
                     <div className="sosmed wow bounceInUp">
-                        <a href="https://www.facebook.com/fauzi.apriana.5" target="_blank"><img src={Facebook} alt="Facebook" className="sosmed-img" /></a>
-                        <a href="https://www.instagram.com/fauziaprianapnb/?hl=id" target="_blank"><img src={Instagram} alt="Instagram" className="sosmed-img" /></a>
-                        <a href="https://twitter.com/AprianaFauzi" target="_blank"><img src={Twitter} alt="Twitter" className="sosmed-img"/></a>
-                        <a href="https://www.linkedin.com/in/fauzi-apriana-01541a1b8/" target="_blank"><img src={Linkedin} alt="Linkedin" className="sosmed-img"/></a>
+                        <a href="https://www.facebook.com/fauzi.apriana.5" target="_blank" rel="noopener noreferrer" ><img src={Facebook} alt="Facebook" className="sosmed-img" /></a>
+                        <a href="https://www.instagram.com/fauziaprianapnb/?hl=id" target="_blank" rel="noopener noreferrer" ><img src={Instagram} alt="Instagram" className="sosmed-img" /></a>
+                        <a href="https://twitter.com/AprianaFauzi" target="_blank" rel="noopener noreferrer" ><img src={Twitter} alt="Twitter" className="sosmed-img"/></a>
+                        <a href="https://www.linkedin.com/in/fauzi-apriana-01541a1b8/" target="_blank" rel="noopener noreferrer" ><img src={Linkedin} alt="Linkedin" className="sosmed-img"/></a>
                     </div>
                 </div>
             </div>

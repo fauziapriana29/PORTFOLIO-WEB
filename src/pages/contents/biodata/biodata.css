@@ -31,7 +31,7 @@
     height: 150%;
     position: relative;
     top: -30%;
-    /* filter: grayscale(.25); */
+    filter: grayscale(.25);
 }
 
 .cont-data {
