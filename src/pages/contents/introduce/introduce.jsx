@@ -13,7 +13,7 @@ const Introduce = () => {
                     <span>i</span> 
                 </h1>
 
-                <div className="cont-intro">
+                <div className="cont-intro wow zoomInDown">
                     On this website I will introduce myself, as written above, my name is Fauzi Apriana Basri. I am a beginner in the programmer.  When viewed from my nature, I am a very optimistic person in doing something, and I am also always punctual in any case. And some things that will be introduced further below, such as My experience, My education, and My skills
                 </div>
                 

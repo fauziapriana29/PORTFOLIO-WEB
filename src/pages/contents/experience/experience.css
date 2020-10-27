@@ -1,7 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap');
+
+
 .experience {
     height: 112vh;
     background-image: url(../../../assets/footageWlppr.jpg);
     background-size: cover;
     background-position-y: 50px;
     background-attachment: fixed;
+    padding-top: 130px;
+}
+
+.cont-company {
+    width: fit-content;
+    margin: auto;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.cont-nok-company, .cont-pci-company {
+    width: 400px;
+    height: 75vh;
+    margin: 0 10px;
+    text-align: center;
+    background-color: rgba(32, 32, 32, 0.9);
+    color: white;
+    padding: 20px 20px;
+    border-radius: 20px;
+    box-shadow: inset 0 0 10px rgb(56,189,207);
+    font-family: 'Open Sans', sans-serif;
+   
+}
+
+.title-company {
+    color: rgb(56,189,207);
+    font-weight: bold;
+}
+
+.cont-nok-company .title-company {
+    margin-top: 35px;
+}
+
+.cont-nok-company img {
+    width: 195px;
+    height: 110px;
+}
+
+.desc-nok p {
+    text-align: left;
+    font-size: 20px;
+    color: rgb(56,189,207);
+}
+
+.desc-nok p span {
+    color: white;
+    margin-left: 10px;
+}
+
+.desc-pci p {
+    text-align: left;
+    font-size: 20px;
+    color: rgb(56,189,207);
+}
+
+.desc-pci p span {
+    color: white;
+    margin-left: 10px;
+}
+
+.cont-nok-company p.year, .cont-pci-company p.year {
+    margin-top: -20px;
+}
+
+.cont-pci-company img {
+    width: 170px;
+    height: 175px;
+    position: relative;
+    top: -20px
+}
+
+.title-pci {
+    position: relative;
+    top: -30px;
+}
+
+@media screen and (max-width: 800px) {
+
+    .experience {
+        height: fit-content;
+        padding-bottom: 30px;
+    }
+
+    .cont-company {
+        flex-direction: column;
+    }
+
+    .cont-nok-company .title-company {
+        margin-top: 10px;
+    }
+    
+    .cont-nok-company, .cont-pci-company {
+        display: block;
+        width: 85vw;
+        margin-top: 10px;
+        height: 100vh;
+    }
+
 }

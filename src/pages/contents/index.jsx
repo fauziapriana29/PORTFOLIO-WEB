@@ -1,7 +1,7 @@
 import React from 'react'
 import './style.css'
 
-import Navbar from '../../components/navbar/navbar.jsx'
+import Navbar from '../../components/navbar/navbar2.jsx'
 import Biodata from './biodata/biodata.jsx'
 import Introduce from './introduce/introduce.jsx'
 import Experience from './experience/experience.jsx'
