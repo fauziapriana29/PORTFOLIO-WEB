@@ -25,15 +25,15 @@ const Biodata = () => {
                             <h1 className="name">Fauzi Apriana Basri</h1>
                             <p className="name-p">i'm is a 
                             <Typical
-                                loop={Infinity}
+                                loop={5}
                                     className="typing-title"
                                 wrapper="normal"
                                     steps={[
-                                        ' web developer', 2000,
+                                        ' Entrepreneur', 2000,
                                         ' AutoCad Designer', 2000,
                                         ' Photoshop Editor', 2000,
                                         ' Video Editor', 2000,
-                                        ' Entrepreneur', 2000,
+                                        ' web developer', 2000,
                                     ]}
                             />
                             </p>

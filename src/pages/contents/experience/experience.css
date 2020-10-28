@@ -7,7 +7,13 @@
     background-size: cover;
     background-position-y: 50px;
     background-attachment: fixed;
-    padding-top: 130px;
+    padding-top: 90px;
+}
+
+.main-title-experience {
+    color: rgb(56,189,207);
+    letter-spacing: 5px;
+    text-align: center;
 }
 
 .cont-company {
@@ -34,10 +40,11 @@
 .title-company {
     color: rgb(56,189,207);
     font-weight: bold;
+    margin-top: -20px;
 }
 
 .cont-nok-company .title-company {
-    margin-top: 35px;
+    margin-top: 15px;
 }
 
 .cont-nok-company img {

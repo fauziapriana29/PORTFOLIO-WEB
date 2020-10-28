@@ -1,0 +1,137 @@
+.cont-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 100px;
+}
+
+.title-educations {
+    position: absolute;
+    color: whitesmoke;
+    margin-top: -50px;
+}
+
+.cards {
+    position: relative;
+    width: 480px;
+    height: 200px;
+    margin: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 20px;
+    background: linear-gradient(135deg,rgb(0, 97, 136),rgb(36, 31, 31));
+}
+
+.cards .logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 0.5s;
+}
+
+
+.cards .tk-img {
+    width: 150px;
+    height: 150px;
+}
+
+.cards .sd-img {
+    width: 150px;
+}
+
+.cards .smp-img {
+    width: 150px;
+}
+
+.cards .smk-img {
+    width: 150px;
+}
+
+.cards:hover .logo {
+    left: 80%;
+    bottom: 0;
+    width: 300px;
+    overflow: visible;
+    z-index: 999;
+}
+
+.cards:hover img.tk-img {
+    left: 80%;
+    top: 0;
+    width: 250px;
+    height: 250px;
+    overflow: visible;
+    z-index: 999;
+}
+
+.cards:hover img.sd-img {
+    left: 80%;
+    top: 0;
+    width: 300px;
+    overflow: visible;
+    z-index: 999;
+}
+
+.cards .content {
+    position: relative;
+    width: 50%;
+    left: 50%;
+    color: white;
+    padding: 10px 10px 10px 40px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+}
+
+.cards .content .title-school {
+    color: rgb(56,189,207);
+}
+
+.cards:hover .content {
+    opacity: 1;
+    visibility: visible;
+    left: 0%;
+}
+
+@media screen and (max-width: 800px) {
+    .cont-cards {
+        width: 100%;
+        /* border: 1px solid white; */
+    }
+    .cards {
+        width: 90%;
+        height: 200px;
+    }
+
+    .cards .tk-img {
+        width: 150px;
+        height: 150px;
+        transition: 0.5s;
+    }
+    
+    .cards .sd-img {
+        width: 150px;
+    }
+    
+    .cards .smp-img {
+        width: 150px;
+    }
+    
+    .cards .smk-img {
+        width: 150px;
+    }
+
+    .cards:hover img.logo {
+        z-index: -1;
+        left: 50%;
+        width: 250px;
+
+    }
+
+    .cards .content {
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+    }
+}

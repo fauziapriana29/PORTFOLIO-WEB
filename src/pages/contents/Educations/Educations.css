@@ -1,0 +1,14 @@
+.main-cont-educations {
+    /* padding-top: 50px; */
+    width: 100%;
+    overflow: hidden;
+    padding: 50px 100px;
+    height: fit-content;
+    background-color: rgb(32, 32, 32);
+}
+
+@media screen and (max-width: 800px) {
+    .main-cont-educations {
+        padding: 50px 0;
+    }
+}
