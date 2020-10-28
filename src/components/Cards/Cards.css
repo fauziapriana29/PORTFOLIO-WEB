@@ -21,6 +21,7 @@
     align-items: center;
     border-radius: 20px;
     background: linear-gradient(135deg,rgb(0, 97, 136),rgb(36, 31, 31));
+    overflow: hidden;
 }
 
 .cards .logo {
@@ -49,28 +50,28 @@
 }
 
 .cards:hover .logo {
-    left: 80%;
+    left: 50%;
     bottom: 0;
     width: 300px;
     overflow: visible;
-    z-index: 999;
+    z-index: -1;
 }
 
 .cards:hover img.tk-img {
-    left: 80%;
+    left: 50%;
     top: 0;
     width: 250px;
     height: 250px;
     overflow: visible;
-    z-index: 999;
+    z-index: -1;
 }
 
 .cards:hover img.sd-img {
-    left: 80%;
+    left: 50%;
     top: 0;
     width: 300px;
     overflow: visible;
-    z-index: 999;
+    z-index: -1;
 }
 
 .cards .content {
