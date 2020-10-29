@@ -5,5 +5,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(32, 32, 32);
+    background-color: rgb(99, 94, 94);
+}
+
+@media screen and (max-width: 800px) {
+    .main-cont-skills {
+        height: fit-content;
+        padding-bottom: 30px;
+    }
 }

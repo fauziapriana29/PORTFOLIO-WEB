@@ -98,7 +98,6 @@
 @media screen and (max-width: 800px) {
     .cont-cards {
         width: 100%;
-        /* border: 1px solid white; */
     }
     .cards {
         width: 90%;

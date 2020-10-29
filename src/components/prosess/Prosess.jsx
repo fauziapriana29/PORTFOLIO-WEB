@@ -4,7 +4,7 @@ import './Prosess.css'
 function Prosess() {
     return (
         <div>
-            <div className="container">
+            <div className="container-prosess">
                 <div className="cards-prosess">
                     <div className="box">
                         <div className="percent">
